@@ -23,7 +23,7 @@ myLCdist <- function (xy1, xy2, mask) {
   costDistance(trans, as.matrix(xy1), as.matrix(xy2))
 }
 
-dat = readRDS("./Analysis4paper/TNN.Rds")
+dat = readRDS("data/TNN.Rds")
 Tost = dat$Tost
 
 # reduce by some factor for faster processing (leave at 1 for as is)
