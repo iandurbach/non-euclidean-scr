@@ -3,5 +3,6 @@
 .RData
 .Ruserdata
 .docx
-/tost_simulation/output
+/tost_simulation/output/*
 !tost_simulation/output/Tost_Enrm_calcs.RData
+
