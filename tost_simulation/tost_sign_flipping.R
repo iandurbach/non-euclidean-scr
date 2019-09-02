@@ -4,6 +4,8 @@ library(tidyverse)
 library(scrmlebook)
 library(pals)
 
+### CHECK MYMEAN FUNCTIONS!!
+
 # general LCdist function that allows you to call your own "mymean" fn (this is the only diff
 # between the arithLCdist and geomLCdist in noneuc-utils.R)
 
@@ -23,7 +25,7 @@ myLCdist <- function (xy1, xy2, mask) {
   costDistance(trans, as.matrix(xy1), as.matrix(xy2))
 }
 
-dat = readRDS("data/TNN.Rds")
+dat = readRDS("tost_simulation/data/TNN.Rds")
 Tost = dat$Tost
 
 # reduce by some factor for faster processing (leave at 1 for as is)
